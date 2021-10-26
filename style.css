@@ -33,15 +33,18 @@ body{
 #img-div {
     padding: 1em 0.5em;
     background-color: white;
-    /*display: flex;
+    display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;*/
+    justify-content: center;
 }
 
 #image {
     width:clamp(100px, 100%, 640px);
-    margin: auto;
+    max-width: 620px;
+    /*display: block;*/
+    /*height: auto;*/
+    /*margin: auto;*/
 }
 
 #img-caption {
